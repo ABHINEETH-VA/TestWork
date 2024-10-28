@@ -1,7 +1,6 @@
 const {test, expect} = require('@playwright/test');
 const {POManager} = require('../../pageobjects/POManager');
 
-//https://orkestra-scs.atlassian.net/browse/PE-6124
 
 test.beforeEach(async({page}) => {
         const username = "some"

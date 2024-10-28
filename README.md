@@ -23,6 +23,4 @@ Copy template and fill the required secrets.
 ## Running Tests
 
 ### `npm run tests`
-## Authors
 
-Orkestra SCS QA Team

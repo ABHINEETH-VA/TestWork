@@ -4,10 +4,9 @@ const {POManager} = require('../../pageobjects/POManager');
 //https://orkestra-scs.atlassian.net/browse/PE-6124
 
 test.beforeEach(async({page}) => {
-        //const username = process.env.USERNAME_OIA
-        //const password = process.env.PASSWORD
-        const username = "orkestra.test.user_oia.internal.useradmin@orkestrascsadb2c.onmicrosoft.com"
-        const password = "x3K3$RtxSA@gHm3Txk"
+
+        const username = "some"
+        const password = "some"
         const poManager = new POManager(page)
         const loginPage = poManager.getLoginPage()
         await loginPage.goTo()

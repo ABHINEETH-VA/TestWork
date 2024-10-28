@@ -1,0 +1,21 @@
+{
+  "name": "portal-web-e2e-playwright",
+  "description": "e2e automation testing for OIA Orkestra SCS",
+  "version": "1.0.0",
+  "scripts": {
+    "tests": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "constants": "^0.0.2",
+    "dotenv": "^16.3.1",
+    "pytest": "^1.0.0",
+    "request": "^2.88.2"
+  }
+}

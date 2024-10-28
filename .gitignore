@@ -1,0 +1,9 @@
+.DS_Store
+old/cypress/reports/
+node_modules/
+screenshots/
+videos/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+.idea

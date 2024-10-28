@@ -44,7 +44,7 @@ class POManager
         return this.chatPage;
     }
     getAdminPage(){
-        return this.adminLoginPage;uujjkllllllllllkjjjjujjjiiii
+        return this.adminLoginPage;
         
     }
 
